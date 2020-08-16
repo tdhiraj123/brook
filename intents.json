@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day","hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "search",
+         "patterns": ["what does GPU mean", "how google is formed", "where can i find google", "how old is earth", "what is google","search for wiki","search for kitty","what is corona","how is hole on ozone","what corona is made up of","what is dengue","what is pycharm","open geekforgeeks","open stackover flow"],
+         "responses": ["will find","searching for it","finding it"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","your good name?","what are you beeing called","name please?","name?"],
+         "responses": ["You can call me brook.", "I'm brook!"],
+         "context_set": ""
+        },
+        {"tag": "youtube",
+         "patterns": ["play memories from youtube", "play some bts songs", "play jabardast from youtube","play prank video's from youtube"],
+         "responses": ["play it from youtube", "opening it in youtube"],
+         "context_set": ""
+        },
+        {"tag": "whatsapp",
+         "patterns": ["send a whatsapp message to gopi", "can you send a whatsapp message", "will you send a message to melwin","it is possible to send a message to dhiraj","need to send a message to sinha","send a message"],
+         "responses": ["yes, to whome ?"],
+         "context_set": ""
+        },
+        {"tag": "alarm",
+         "patterns": ["wake me up in 30 min", "can you remind me in 20", "wake me in 30 minutes","remind me in 10 min","wake me up at 6 am","wake me up at 7 am","wake me up at 8"],
+         "responses": ["alarm module is yet to bulid"],
+         "context_set": ""
+        }
+   ]
+}
